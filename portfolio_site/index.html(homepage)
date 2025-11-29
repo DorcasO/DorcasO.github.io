@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dorcas Ojo – Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <h1 class="logo">Dorcas Ojo</h1>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="moringa.html">Moringa Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="hero-section">
+    <div class="hero-content">
+      <h2>Data Scientist & Bioinformatics Researcher</h2>
+      <p>Transforming biological and health data into actionable insights through applied AI and ethical research.</p>
+      <a href="about.html" class="btn">Learn More</a>
+    </div>
+  </main>
+
+  <section class="project-preview">
+    <h2>Featured Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="images/health.png" alt="Predictive Health Outcomes">
+        <h3>Predictive Health Outcomes</h3>
+      </div>
+      <div class="project-card">
+        <img src="images/plantgenomics.jpg" alt="Genomics Classification Model">
+        <h3>Genomics Classification Model</h3>
+      </div>
+      <div class="project-card">
+        <img src="images/wasteclassifier.png" alt="Waste Classification App">
+        <h3>Waste Classification Streamlit App</h3>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>© 2025 Dorcas Ojo | Plant Genomics & Data Science</p>
+  </footer>
+</body>
+</html>
