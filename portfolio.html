@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio – Dr Dorcas Ojo</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <style>
+    nav.top-nav {
+      background: linear-gradient(135deg, #003366, #00a8a8);
+      padding: 0.5rem 2rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    nav.top-nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1.5rem;
+      font-weight: 500;
+      transition: color 0.3s ease;
+      display: inline-block;
+    }
+    nav.top-nav a:hover, nav.top-nav a.active {
+      color: #e0f7fa;
+      border-bottom: 2px solid #e0f7fa;
+      padding-bottom: 0.5rem;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="top-nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="portfolio.html" class="active">Portfolio</a>
+    <a href="moringa.html">Moringa Research</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <header style="background: linear-gradient(135deg, #003366, #00a8a8); color: #fff; text-align: center; padding: 60px 20px;">
+    <h1 style="margin: 0; font-size: 2.6em; letter-spacing: 1px;">Portfolio</h1>
+    <h3 style="font-weight: 400; font-size: 1.2em; margin-top: 10px; color: #e0f7fa;">Featured Projects & Case Studies</h3>
+  </header>
+
+  <main style="max-width: 1000px; margin: 0 auto; padding: 3rem 2rem;">
+    <section style="margin-bottom: 3rem;">
+      <h2 style="color: #003366; text-align: center; margin-bottom: 2rem;">Featured Projects</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 25px;">
+        <div style="background: #fff; border-radius: 12px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); overflow: hidden; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+          <img src="images/health.png" alt="Predictive Health Outcomes" style="width: 100%; height: 160px; object-fit: cover;" />
+          <h3 style="color: #003366; padding: 15px 20px 5px;">Predictive Health Outcomes</h3>
+          <p style="padding: 0 20px 20px; color: #444; font-size: 0.95em;">
+            Built ML models using NHS datasets to forecast patient outcomes and enhance clinical resource allocation. Delivered dynamic dashboards in Power BI for operational use.
+          </p>
+        </div>
+
+        <div style="background: #fff; border-radius: 12px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); overflow: hidden; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+          <img src="images/plantgenomics.jpg" alt="Genomics Classification Model" style="width: 100%; height: 160px; object-fit: cover;" />
+          <h3 style="color: #003366; padding: 15px 20px 5px;">Genomics Classification Model</h3>
+          <p style="padding: 0 20px 20px; color: #444; font-size: 0.95em;">
+            Created and optimized MobileNetV2 CNN for biological image classification, achieving high accuracy and improving computational biology workflows.
+          </p>
+        </div>
+
+        <div style="background: #fff; border-radius: 12px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); overflow: hidden; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+          <img src="images/wasteclassifier.png" alt="Waste Classification Streamlit App" style="width: 100%; height: 160px; object-fit: cover;" />
+          <h3 style="color: #003366; padding: 15px 20px 5px;">Waste Classification Streamlit App</h3>
+          <p style="padding: 0 20px 20px; color: #444; font-size: 0.95em;">
+            Designed an AI-driven Streamlit web app for automatic waste sorting and recycling classification using computer vision.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section style="background: #f0f6f8; padding: 2rem; border-radius: 8px; margin-bottom: 3rem;">
+      <h2 style="color: #003366; text-align: center; margin-bottom: 2rem;">Research & Publications</h2>
+      <p style="color: #333; text-align: center; margin-bottom: 1.5rem;">
+        Manuscripts in preparation. Detailed research blogs and case studies available below.
+      </p>
+      <div style="text-align: center;">
+        <a href="moringa.html" style="background: #003366; color: white; padding: 0.8rem 1.5rem; border-radius: 4px; text-decoration: none; font-weight: 500; display: inline-block;">
+          Read Moringa Research Blog →
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <h2 style="color: #003366; text-align: center; margin-bottom: 2rem;">Skills & Technologies</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+        <div style="background: #fff; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+          <h3 style="color: #003366;">Languages</h3>
+          <p style="color: #333;">Python, R, SQL, JavaScript, HTML/CSS, Bash</p>
+        </div>
+        <div style="background: #fff; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+          <h3 style="color: #003366;">ML & AI Frameworks</h3>
+          <p style="color: #333;">TensorFlow, scikit-learn, XGBoost, LightGBM, Keras, PyTorch</p>
+        </div>
+        <div style="background: #fff; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+          <h3 style="color: #003366;">Cloud & DevOps</h3>
+          <p style="color: #333;">AWS, Azure, Docker, GitHub, Streamlit, Flask</p>
+        </div>
+        <div style="background: #fff; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+          <h3 style="color: #003366;">Bioinformatics Tools</h3>
+          <p style="color: #333;">BLAST, Trinity, GATK, DESeq2, DAVID, Cytoscape</p>
+        </div>
+        <div style="background: #fff; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+          <h3 style="color: #003366;">Visualization</h3>
+          <p style="color: #333;">Power BI, Tableau, Matplotlib, Seaborn, ggplot2, Plotly</p>
+        </div>
+        <div style="background: #fff; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+          <h3 style="color: #003366;">Data Management</h3>
+          <p style="color: #333;">PostgreSQL, MongoDB, Pandas, NumPy, Git, GDPR</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer style="background-color: #003366; color: #fff; text-align: center; padding: 25px; font-size: 0.9em; letter-spacing: 0.5px;">
+    <p>© 2025 Dorcas Ojo | Plant Genomics, Data Science & Health Informatics</p>
+  </footer>
+</body>
+</html>
